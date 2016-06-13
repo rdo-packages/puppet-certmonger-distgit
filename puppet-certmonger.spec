@@ -4,9 +4,9 @@ Release:        XXX
 Summary:        Certmonger Puppet Module
 License:        Apache-2.0
 
-URL:            https://github.com/rcritten/puppet-certmonger
+URL:            https://github.com/earsdown/puppet-certmonger
 
-Source0:        http://github.com/rcritten/puppet-certmonger/archive/%{version}.tar.gz
+Source0:        http://github.com/earsdown/puppet-certmonger/archive/%{version}.tar.gz
 
 BuildArch:      noarch
 
@@ -14,7 +14,7 @@ Requires:       puppet-stdlib
 Requires:       puppet >= 2.7.0
 
 %description
-This Puppet Module tracks certificates using certmonger.
+Certmonger puppet module for integration with IPA CAs.
 
 %prep
 %setup -q -n %{name}-%{version}
