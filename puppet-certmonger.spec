@@ -7,8 +7,8 @@
 
 
 Name:           puppet-certmonger
-Version:        XXX
-Release:        XXX
+Version:        1.1.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Certmonger Puppet Module
 License:        Apache-2.0
 
@@ -49,4 +49,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/certmonger/
 
 
 %changelog
+* Wed Sep 21 2016 Haikel Guemar <hguemar@fedoraproject.org> - 1.1.0-1.e72a78c.git
+- Newton update 1.1.0 (e72a78cf7361e7b64facebf42b29351c1a4e96c8)
+
 
