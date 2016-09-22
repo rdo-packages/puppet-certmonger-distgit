@@ -5,6 +5,11 @@
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
+%global commit e72a78cf7361e7b64facebf42b29351c1a4e96c8
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
+
 
 Name:           puppet-certmonger
 Version:        XXX
