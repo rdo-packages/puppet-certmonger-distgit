@@ -10,7 +10,7 @@ Name:           puppet-certmonger
 Version:        XXX
 Release:        XXX
 Summary:        Certmonger Puppet Module
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/earsdown/puppet-certmonger
 
