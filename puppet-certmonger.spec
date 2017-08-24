@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-certmonger
-%global commit e72a78cf7361e7b64facebf42b29351c1a4e96c8
+%global commit d09f0f2bfb60f72f4843801f845383576c8afbc2
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-certmonger
-Version:        XXX
-Release:        XXX
+Version:        1.1.1
+Release:        2%{?alphatag}%{?dist}
 Summary:        Certmonger Puppet Module
 License:        ASL 2.0
 
@@ -49,5 +49,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/certmonger/
 
 
 %changelog
+* Fri Aug 25 2017 Alfredo Moralejo <amoralej@redhat.com> 1.1.1-2.d09f0f2git
+- Pike update 1.1.1 (d09f0f2bfb60f72f4843801f845383576c8afbc2)
 
 
