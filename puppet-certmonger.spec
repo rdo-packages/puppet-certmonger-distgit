@@ -12,9 +12,9 @@ Release:        XXX
 Summary:        Certmonger Puppet Module
 License:        ASL 2.0
 
-URL:            https://github.com/earsdown/puppet-certmonger
+URL:            https://github.com/saltedsignal/puppet-certmonger
 
-Source0:        http://github.com/earsdown/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
+Source0:        http://github.com/saltedsignal/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
 
 BuildArch:      noarch
 
