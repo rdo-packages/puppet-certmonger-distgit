@@ -1,14 +1,14 @@
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-certmonger
-%global commit e72a78cf7361e7b64facebf42b29351c1a4e96c8
+%global commit a19887066c4978ad2567c881d60c14fcf0737bb2
 %global shortcommit %(c=%{commit}; echo ${c:0:7})
 # DO NOT REMOVE ALPHATAG
 %global alphatag .%{shortcommit}git
 
 
 Name:           puppet-certmonger
-Version:        XXX
-Release:        XXX
+Version:        2.4.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Certmonger Puppet Module
 License:        ASL 2.0
 
@@ -49,5 +49,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/certmonger/
 
 
 %changelog
+* Thu Feb 15 2018 RDO <dev@lists.rdoproject.org> 2.4.0-1.a198870git
+- Update to post 2.4.0 (a19887066c4978ad2567c881d60c14fcf0737bb2)
+
 
 
