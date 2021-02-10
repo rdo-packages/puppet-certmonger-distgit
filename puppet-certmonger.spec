@@ -50,4 +50,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/certmonger/
 
 %changelog
 
-
