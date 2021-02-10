@@ -53,4 +53,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/certmonger/
 - Update to post 2.4.0 (a19887066c4978ad2567c881d60c14fcf0737bb2)
 
 
-
