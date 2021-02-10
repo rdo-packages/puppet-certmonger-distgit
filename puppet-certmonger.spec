@@ -1,20 +1,16 @@
-%{!?upstream_version: %global upstream_version %{commit}}
+%{!?upstream_version: %global upstream_version %{version}}
 %define upstream_name puppet-certmonger
-%global commit a19887066c4978ad2567c881d60c14fcf0737bb2
-%global shortcommit %(c=%{commit}; echo ${c:0:7})
-# DO NOT REMOVE ALPHATAG
-%global alphatag .%{shortcommit}git
 
 
 Name:           puppet-certmonger
-Version:        2.4.0
-Release:        1%{?alphatag}%{?dist}
+Version:        2.6.0
+Release:        1%{?dist}
 Summary:        Certmonger Puppet Module
 License:        ASL 2.0
 
 URL:            https://github.com/saltedsignal/puppet-certmonger
 
-Source0:        http://github.com/saltedsignal/%{upstream_name}/archive/%{commit}.tar.gz#/%{upstream_name}-%{shortcommit}.tar.gz
+Source0:        http://github.com/saltedsignal/%{upstream_name}/archive/%{upstream_version}.tar.gz#/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildArch:      noarch
 
@@ -49,6 +45,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/certmonger/
 
 
 %changelog
+* Wed Feb 10 2021 RDO <dev@lists.rdoproject.org> 2.6.0-1
+- Update to 2.6.0
+
 * Thu Feb 15 2018 RDO <dev@lists.rdoproject.org> 2.4.0-1.a198870git
 - Update to post 2.4.0 (a19887066c4978ad2567c881d60c14fcf0737bb2)
 
