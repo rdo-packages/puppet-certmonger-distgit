@@ -1,0 +1,8 @@
+Code-Review+2: Javier Peña <jpena@redhat.com>
+Workflow+1: Javier Peña <jpena@redhat.com>
+Verified+2: Yatin Karel <ykarel@redhat.com>
+Submitted-by: Yatin Karel <ykarel@redhat.com>
+Submitted-at: Thu, 11 Feb 2021 04:53:00 +0000
+Reviewed-on: https://review.rdoproject.org/r/31939
+Project: puppet/puppet-certmonger-distgit
+Branch: refs/heads/ussuri-rdo
