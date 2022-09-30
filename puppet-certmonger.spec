@@ -7,8 +7,8 @@
 
 
 Name:           puppet-certmonger
-Version:        XXX
-Release:        XXX
+Version:        2.7.1
+Release:        1%{?dist}
 Summary:        Certmonger Puppet Module
 License:        ASL 2.0
 
@@ -49,5 +49,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/certmonger/
 
 
 %changelog
+* Fri Sep 30 2022 RDO <dev@lists.rdoproject.org> 2.7.1-1
+- Update to 2.7.1
+
 
 
