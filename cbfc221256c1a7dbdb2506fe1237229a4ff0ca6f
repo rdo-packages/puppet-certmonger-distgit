@@ -33,6 +33,23 @@
       "message": "It\u0027s already built https://cbs.centos.org/koji/buildinfo?buildID\u003d38629 we can crosstag it ",
       "revId": "cbfc221256c1a7dbdb2506fe1237229a4ff0ca6f",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e96b7d18_980c1ed1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2022-09-30T13:14:58Z",
+      "side": 1,
+      "message": "I crosstagged it manually",
+      "revId": "cbfc221256c1a7dbdb2506fe1237229a4ff0ca6f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
